@@ -1,0 +1,328 @@
+.body{
+    margin:0;
+    padding:0;
+    font-family: Helvetica, sans-serif;
+}
+.header{
+   display:flex;
+   flex-direction: row;
+   position:fixed;
+   align-items: center;
+   height: 70px;
+   background-color: white;
+   width:100%;
+   z-index:1;
+}
+.starbuck{
+    width:50px;
+    margin-left:100px;
+}
+.star{
+    margin-left:55px;
+    font-size:16px;
+    font-weight:lighter;
+    color:#7c7d7d;
+    cursor:pointer;
+    transition: color 0.15s, border-bottom 0.15s, padding-bottom 0.15s;
+    
+}
+.star:hover{
+    color:rgb(24, 65, 52);
+    border-bottom: 2px solid black;
+    padding-bottom:15px;
+}
+.star:active{
+    color:black
+}
+.right-section{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding-left:30px;
+    width:700px;
+    height:56px;
+    margin-top:0;
+    
+}
+
+.serch-button{
+    width:260px;
+    height:24px;
+    border:none;
+    border-radius:39px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:4px;
+    margin-left:280px;
+    box-shadow: 4px 4px 10px rgb(0,0,0,0.15);
+    
+}
+.serch-button::placeholder{
+    padding-left:30px;
+    font-family:sans-serif;
+    font-size:12px;
+    padding-right:19px;
+    
+}
+.user{
+    margin-left:28px;
+}
+.user:hover{
+    width:34px;
+    color:black;
+}
+.user:active{
+    opacity: 0.3;
+}
+
+.left-section{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:650px;
+    height:56px;
+    margin-top:0;
+}
+.header-2{
+    background-color: #324645;
+    height:80px;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular';
+    font-size:24px;
+    font-weight: lighter;
+    padding:80px;
+}
+.tnd-head{
+    padding-left:90px;
+    padding-top:70px;
+}
+.know-button{
+    margin-left:999px;
+    border-style: solid;
+    border-width: 1px;
+    background-color:#324645;
+    border-color: white;
+    border-radius:20px;
+    padding-right:13px;
+    padding-bottom:9px;
+    padding-left:13px;
+    padding-top:9px;
+    color:white;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    transition: background-color 0.15s;
+}
+.know-button:hover{
+    background-color: #1c3b39;
+}
+.know-button:active{
+    opacity:0.07;
+}
+.banner-image{
+    width:100px;
+}
+
+.card{
+    background-color: rgb(220, 230, 234);
+    box-shadow: 0 0 6px rgba(0,0,0,0.290);
+    display:flex;
+    width:1300px;
+    height:243px;
+    border-radius:6px;
+    border-style:solid;
+    border-width: 0.01px;
+    border-color: #b4b5b5;
+    margin-left:100px;
+    margin-top:37px;
+}
+.image{
+    width:140px;
+    padding-left: 6px;
+    padding-right:6px;
+}
+.card-content{
+    padding-left:20px;
+    font-family:  Helvetica;
+    font-weight: lighter;
+}
+.card-info{
+    font-size:12px;
+    font-weight: lighter;
+    color:#324645;
+    margin-top:40px;
+}
+.reward{
+    color:#273736;
+    font-family: Helvetica;
+}
+.info{
+    font-weight: lighter;
+    color:#273736;
+    padding-top:14px;
+}
+.know-two{
+    padding-left:53px;
+    padding-right:53px;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: #167742;
+    color:white;
+    font-size: 10px;
+    font-weight: bold;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.know-two:hover{
+   background-color: #0f1f1e;
+}
+.know-two:active{
+    opacity:0.07;
+}
+.b{
+    padding-left:470px;
+    padding-top:176px;
+
+}
+.three-o{
+    color:#324645;
+    padding-left:100px;
+    padding-top:53px;
+    padding-bottom:20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.round-pics{
+    padding-left:100px;
+}
+.best-seller{
+    width:100px;
+    border-radius:50px;
+}
+.text{
+    font-weight: 600;
+    color:#273736;
+    margin:3px;
+    padding-left:8px;
+}
+.text-2{
+    font-weight: 600;
+    color:#273736;
+    margin:3px;
+    padding-left:29px;
+}
+.pics{
+    display:block;
+
+}
+.round-pics{
+   display: inline-block;
+   padding-right:30px;
+}
+
+.prize{
+    font-size:14px;
+    margin-top:3px;
+    padding-left:10px;
+}
+
+.info-2{
+    font-weight:100;
+    color:#273736;
+    padding-top:4px;
+    margin-top:2px;
+    margin-bottom:15px;
+    font-family:'Franklin Gothic small', 'Arial Narrow', Arial, sans-serif;
+}
+.third-head{
+    background-color: rgb(235, 237, 239);
+    width:100%;
+    height:280px;
+    padding-top:18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nmm{
+    font-family:  Helvetica, sans-serif;
+    font-size:24px;
+    color:#0f1f1e;
+    font-weight: bold;
+    background-color: rgb(235, 237, 239);
+    padding-left:100px;
+    padding-top:35px;
+    margin-top:40px;
+    margin-bottom:0;
+}
+.im{
+    margin-left:7px;
+    padding-top:6px;
+    padding-bottom:8px;
+    width:80px;
+    height:80px;
+    border-radius: 10px;
+}
+.capp{
+    font-family: Helvetica;
+    font-size:16px;
+    margin-top:3px;
+    margin-top:1px;
+}
+.card-2{
+    background-color: rgb(247, 248, 249);
+    box-shadow: 0 0 3px rgba(0,0,0,0.290);
+    display:flex;
+    flex-direction: row;
+    width:346px;
+    height:150px;
+    border-radius:6px;
+    border:none;
+    border-color: #b4b5b5;
+    margin-left:100px;
+    margin-top:30px;
+    margin-right:0;
+    padding-left:10px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.know-two-2{
+    margin-left:16px;
+    margin-bottom:10px;
+    margin-top:75px;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-right: 18px;
+    padding-left:18px;
+    padding-right:18px;
+    background-color: #2b6e49;
+    color:white;
+    font-size: 10px;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 3px 10px rgba(0,0,0,0.290);
+    transition: background-color 0.15s;
+}
+.know-two-2:hover{
+    background-color: #0f1f1e;
+}
+.but{
+    padding-top:9px;
+}
+.card-greeny{
+    padding-top:10px;
+    padding-left:0;
+    margin-bottom:2px;
+}
+.card-content-2{ 
+    font-family:  Helvetica;
+    font-weight: lighter;
+    padding-left:10px;
+}
